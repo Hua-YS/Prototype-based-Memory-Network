@@ -2,8 +2,7 @@
 The labels and codes for [Aerial Scene Understanding in The Wild: Multi-Scene Recognition via Prototype-based Memory Networks]()
 
 ## Usage
-1) install dependencies in ```requirements.txt```
-2) download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. The directory structure should be as follows:
+download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. The directory structure should be as follows:
 ```
   path/to/data/
     configs/        # data split for UCM2MAI and AID2MAI
