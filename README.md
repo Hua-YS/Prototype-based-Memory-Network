@@ -6,6 +6,7 @@ The architecture of our prototype-based memory network
 <img src="./pmnet.png" width = "640" height = "380" alt="example" align=center />
 
 ## Usage
+### 1 2Preparation
 1) install dependencies in ```requirements.txt```
 2) download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. To learn scene prototypes, [AID](https://captain-whu.github.io/AID/) and [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html) datasets are required. The data directory structure should be as follows:
 ```
@@ -26,7 +27,7 @@ The architecture of our prototype-based memory network
       airplane/
       ...
 ```
-### Network learning
+### 2 Network learning
 1) learn scene prototypes on a single-scene aerial image dataset (e.g., UCM)
 ```python main_cnn.py --data_config='ucm_si' --backbone='resnet50' --weight_path='path/to/cnn.h5' --ep 100 --lr 2e-4 --evaluate 0 ```
 2) store prototypes in the memory
@@ -34,7 +35,7 @@ The architecture of our prototype-based memory network
 3) retrieve memory for unconstrained multi-scene recognition
 ```python main_pmnet.py --data_config='ucm2mai' --backbone='resnet50' --pretrain_weight_path='path/to/cnn.h5' --weight_path='path/to/pmnet.h5' --ep 100 --lr 5e-4 --evaluate 0 ```
 
-### Inference
+### 3 Inference
 evaluating the performance of PM-ResNet50
 ```python main_pmnet.py --data_config='ucm2mai' --backbone='resnet50' --weight_path='path/to/pm-resnet50.h5' --ep 100 --lr 5e-4 --evaluate 1 ```
 
