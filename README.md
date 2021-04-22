@@ -3,7 +3,7 @@ The labels and codes for [Aerial Scene Understanding in The Wild: Multi-Scene Re
 
 ## Network
 The architecture of our prototype-based memory network
-<img src="./pmnet.png" width = "640" height = "380" alt="example" align=center />
+<img src="./pmnet.png" width = "1000" height = "450" alt="example" align=center />
 
 ## Usage
 ### 1 Preparation
