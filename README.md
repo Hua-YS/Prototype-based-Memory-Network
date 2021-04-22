@@ -6,7 +6,7 @@ The architecture of our prototype-based memory network
 <img src="./pmnet.png" width = "640" height = "380" alt="example" align=center />
 
 ## Usage
-### 1 2Preparation
+### 1 Preparation
 1) install dependencies in ```requirements.txt```
 2) download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. To learn scene prototypes, [AID](https://captain-whu.github.io/AID/) and [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html) datasets are required. The data directory structure should be as follows:
 ```
