@@ -2,7 +2,7 @@
 The labels and codes for [Aerial Scene Understanding in The Wild: Multi-Scene Recognition via Prototype-based Memory Networks]()
 
 ## Usage
-download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. The directory structure should be as follows:
+download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. To learn scene prototypes, [AID](https://captain-whu.github.io/AID/) and [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html) datasets are required. The data directory structure should be as follows:
 ```
   path/to/data/
     mai/
@@ -12,8 +12,11 @@ download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZo
       multilabel.mat  # scene labels
     AID_dataset/      # AID dataset
       Airport/
+      Beach/
       ...
     UCM_dataset/      # UCM dataset
+      agricultural/
+      airplane/
       ...
 ```
 
