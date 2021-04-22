@@ -5,10 +5,16 @@ The labels and codes for [Aerial Scene Understanding in The Wild: Multi-Scene Re
 download [MAI_dataset](https://drive.google.com/drive/folders/1xMWXxDeELmGKBdBZopSzk4rTpw7kqwzb?usp=sharing) and unzip ```images.zip```. The directory structure should be as follows:
 ```
   path/to/data/
-    configs/        # data split for UCM2MAI and AID2MAI
-    images/         # images     
-    label_list.txt  # indices of scene labels
-    multilabel.mat  # scene labels
+    mai/
+      configs/        # data split for UCM2MAI and AID2MAI
+      images/         # images     
+      label_list.txt  # indices of scene labels
+      multilabel.mat  # scene labels
+    AID_dataset/      # AID dataset
+      Airport/
+      ...
+    UCM_dataset/      # UCM dataset
+      ...
 ```
 
 ## Citation
